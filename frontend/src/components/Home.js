@@ -14,15 +14,15 @@ const Home = (props) => {
   return (
     <div> 
       <div className="header_home">
-        <label for="sort">Sort images : </label>
-        <select name="sort">
+        <label for="sort">Seach images : </label>
+        {/* <select name="sort">
           <option value="None" onSelect={()=>console.log('hi')}>None</option>
           <option value="Newest" onClick={()=>sort('Newest')}>Newest</option>
           <option value="Oldest" onClick={()=>sort('Oldest')}>Oldest</option>
           <option value="HighestRating" onClick={()=>sort('HighestRating')}>Highest Rating</option>
           <option value="EditorsChoice" onClick={()=>sort('EditorsChoice')}>Editor's Choice</option>
-        </select>
-        <input className="input" type="text" placeholder="Search..." onChange={(e)=>sort(e.target.value)}/>
+        </select> */}
+        <input className="input" type="text" placeholder="..." onChange={(e)=>sort(e.target.value)}/>
       </div>
       <div className="container">
         <div className="img_lib">

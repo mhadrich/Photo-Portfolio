@@ -24,15 +24,15 @@ function App() {
     if(sort===null){
       setFiltered(data)
     } else if (sort==="Newest"){
-      setFiltered(data.sort((a,b)=>a.taken_year - b.taken_year))
-    } else if (sort==="Oldest"){
       setFiltered(data.sort((a,b)=>b.taken_year - a.taken_year))
+    } else if (sort==="Oldest"){
+      setFiltered(data.sort((a,b)=>a.taken_year - b.taken_year))
     } else if (sort==="HighestRating"){
       setFiltered(data.sort((a,b)=>a.rating - b.rating))
     } else if (sort==="EditorsChoice"){
       setFiltered(data.sort((a,b)=>a.rating - b.rating))
     } else {
-      setFiltered(data.filter((e)=>e.post_name.includes(sort)))
+      setFiltered(data.filter((e)=>e.post_name.toLowerCase().includes(sort.toLowerCase())))
     }
   },[data,sort])
   return (
