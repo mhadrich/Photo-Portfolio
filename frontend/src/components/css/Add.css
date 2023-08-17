@@ -1,0 +1,49 @@
+.addEdit{
+  align-self: center;
+  padding-top: 15%;
+  padding-left: 30%;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.addEdit form {
+  align-items: center;
+  padding-left: 6%;
+}
+
+.addEdit input{
+  align-items: end;
+  width: 400px;
+  height: 30px;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.9) ;
+  color: #f2f2f2;
+  border-radius: 6px;
+  padding-left: 20px;
+  transition: all ease 1s;
+}
+.addEdit input:focus{
+  background-color: #f2f2f2 ;
+  color: rgba(0, 0, 0, 0.9);
+  transition: all ease 1s;
+}
+.addEdit button{
+  width: 300px;
+  justify-self: center;
+  margin: 5px;
+  margin-left: 6%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  transition: all ease 1s;
+}
+.addEdit button:hover{
+  color: #000000;
+  background-color: #F2BB13;
+  transition: all ease 1s;
+}

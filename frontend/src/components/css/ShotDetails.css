@@ -1,0 +1,38 @@
+.detailed_view{
+  padding-top: 7%;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+.detailed_view img{
+  height: 650px;
+  padding-bottom: 3%;
+}
+.detailed_view h1{
+  margin-bottom: -20px;
+}
+.detailed_view button{
+  width: 300px;
+  justify-self: center;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  transition: all ease 1s;
+}
+
+.update_btn:hover{
+  color: #000000;
+  background-color: #F2BB13;
+  transition: all ease 1s;
+}
+.delete_btn:hover{
+  color: #000000;
+  background-color: #f25e35;
+  transition: all ease 1s;
+}
